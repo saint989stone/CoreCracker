@@ -7,7 +7,7 @@ from datetime import datetime
 from math import ceil
 import time
 
-#zabx = ZabbixAPI(url='http://zabbix-mpls.noc.rt.ru/', user='a.pantyukhov', password='2цыч№УВС')
+#zabx = ZabbixAPI(url='-', user='-', password='-')
 #answer = zabx.do_request('apiinfo.version')
 
 
