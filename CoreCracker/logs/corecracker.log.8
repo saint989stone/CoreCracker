@@ -1,0 +1,115 @@
+2022-06-07 10:11:34,509 ERROR: Exception on /user/bob [GET] [in C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py:1455]
+Traceback (most recent call last):
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'user' did not return a valid response. The function either returned None or ended without a return statement.
+2022-06-07 10:12:24,923 ERROR: Exception on /user/bob [GET] [in C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py:1455]
+Traceback (most recent call last):
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'user' did not return a valid response. The function either returned None or ended without a return statement.
+2022-06-07 10:15:47,423 INFO: Microblog startup [in C:\Python\projects\CoreCracker\app\__init__.py:77]
+2022-06-07 10:18:42,780 INFO: Microblog startup [in C:\Python\projects\CoreCracker\app\__init__.py:77]
+2022-06-07 14:05:10,839 INFO: Microblog startup [in C:\Python\projects\CoreCracker\app\__init__.py:79]
+2022-06-07 14:11:05,194 INFO: Microblog startup [in C:\Python\projects\CoreCracker\app\__init__.py:79]
+2022-06-07 14:12:01,613 INFO: Microblog startup [in C:\Python\projects\CoreCracker\app\__init__.py:79]
+2022-06-07 14:12:17,266 ERROR: Exception on /login [GET] [in C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py:1455]
+Traceback (most recent call last):
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python\projects\CoreCracker\app\routes.py", line 89, in login
+    return render_template('login.html', title='Sign In', form=form)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\templating.py", line 149, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Python\projects\CoreCracker\app\templates\login.html", line 48, in template
+    <a href="{{ url_for(reset_password_request }}">Click to Reset</a>
+jinja2.exceptions.TemplateSyntaxError: unexpected '}', expected ')'
+2022-06-07 14:12:21,581 ERROR: Exception on /login [GET] [in C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py:1455]
+Traceback (most recent call last):
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python\projects\CoreCracker\app\routes.py", line 89, in login
+    return render_template('login.html', title='Sign In', form=form)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\templating.py", line 149, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Python\projects\CoreCracker\app\templates\login.html", line 48, in template
+    <a href="{{ url_for(reset_password_request }}">Click to Reset</a>
+jinja2.exceptions.TemplateSyntaxError: unexpected '}', expected ')'
+2022-06-07 14:12:23,037 ERROR: Exception on /login [GET] [in C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py:1455]
+Traceback (most recent call last):
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python\projects\CoreCracker\app\routes.py", line 89, in login
+    return render_template('login.html', title='Sign In', form=form)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\templating.py", line 149, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Python\projects\CoreCracker\app\templates\login.html", line 48, in template
+    <a href="{{ url_for(reset_password_request }}">Click to Reset</a>
+jinja2.exceptions.TemplateSyntaxError: unexpected '}', expected ')'
+2022-06-07 14:13:38,410 INFO: Microblog startup [in C:\Python\projects\CoreCracker\app\__init__.py:79]

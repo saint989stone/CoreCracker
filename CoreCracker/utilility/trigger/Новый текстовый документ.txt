@@ -1,0 +1,10 @@
+2022-04-26 22:29:53				PROBLEM		KLNG-RGR4	Interface xe-1/3/2(<< 10GE ae41 to M7-CR9-A Gi7/0/0:2 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 11s	No	1 action
+2022-04-26 22:29:53				PROBLEM		KLNG-RGR4	Interface ae41(<< 2x10GE to M7-CR9-A Eth-Trunk45 >>): Link change state UP to DOWN	
+down (2), << 2x10GE to M7-CR9-..., up (1)	7h 18m 11s	No	1 action
+2022-04-26 22:29:48				PROBLEM		KLNG-RGR4	Interface xe-1/3/3(<< 10GE ae41 to M7-CR9-A Gi7/0/0:0 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 16s	No	1 action
+2022-04-26 22:29:48				PROBLEM		M7-CR9-A	Interface Gi7/0/0:0(<< 10GE ae41 to KLNG-RGR4 xe-1/3/3 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 16s	No	1 action
+2022-04-26 22:29:48				PROBLEM		M7-CR9-A	Interface Gi7/0/0:0(<< 10GE ae41 to M7-CR9-B xe-1/3/3 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 16s	No	1 action

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Утилизация</h1>
+{% if util_strg_trgr %}
+<p><a href="{{ url_for('utilization_string_trigger') }}">По строкам триггеров</a></p>
+{% endif %}
+{% if util_hosts %}
+<p><a href="{{ url_for('utilization_hosts') }}">По имени хоста(ов)</a></p>
+{% endif %}
+<p>По времени появления тригерров</p>
+{% endblock %}

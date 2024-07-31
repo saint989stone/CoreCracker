@@ -1,0 +1,25 @@
+11:11:14				PROBLEM		STKM-CR4	Interface ae44(<< 2x100GE to M7-CR9-A Eth-Trunk59; SURMS 755915, 1199152 >>): Link change state UP to DOWN	
+11:11:14				PROBLEM		STKM-CR4	Interface et-9/0/5(<< 100GE to M7-CR9-A 100GE8/0/10, Rascom, ID:RST_5955; SURMS 730901, 1199152 >>): Link change state UP to DOWN	
+11:11:14				PROBLEM		STKM-CR1	Interface ae49(<< 3x100GE to M7-CR9-B Eth-Trunk57; S-1114284,21-463456 >>): Link change state UP to DOWN	
+11:11:14				PROBLEM		STKM-CR1	Interface et-9/0/5(<< 100GE to M7-CR9-A 100GE4/0/19, via Rascom, ID:RST_5957; SURMS 755682, 1199150 >>): Link change state UP to DOWN	
+11:11:14				PROBLEM		STKM-CR1	Interface ae47(<< 2x100GE to M7-CR9-A Eth-Trunk49; S755682, 1199150 >>): Link change state UP to DOWN	
+11:11:14				PROBLEM		STKM-CR1	Interface et-2/0/5(<< 100GE to M7-CR9-A 100GE3/0/19, via Rascom, ID:RST_5956; SURMS 755682, 1199150 >>): Link change state UP to DOWN	
+11:11:14				PROBLEM		STKM-CR1	Interface et-7/0/2(<< 100GE to M7-CR9-B 100GE4/0/14, Rascom CHT_5875, NT 014035, P-5865-1/2019; SURMS 674080 >>): Link change state UP to DOWN	
+11:11:14				PROBLEM		STKM-CR1	Interface et-5/1/5(<< 100GE to M7-CR9-B 100GE1/0/18, via Rascom RST_5958; SURMS 734235 >>): Link change state UP to DOWN	
+11:11:11				PROBLEM		FRKT-CR5	Interface ae52(<< 3x100GE to M7-CR9-A Eth-Trunk67; SURMS 736111, 1200672 >>): Link change state UP to DOWN	
+11:11:11				PROBLEM		FRKT-CR5	Interface xe-2/1/2(<< 10GE to M10-CR9-A GE7/0/10:3; Rascom 3239; SURMS 786195 >>): Link change state UP to DOWN	
+11:11:11				PROBLEM		FRKT-CR5	Interface et-4/1/5(<< 100GE to M7-CR9-A 100GE3/0/6, Rascom ID:RST_5961, SURMS 736111, 1200672 >>): Link change state UP to DOWN	
+11:11:11				PROBLEM		FRKT-CR5	Interface xe-2/1/19(<< 10GE to M10-CR9-A GE7/0/9:1; RASCOM SVN_3415; NT 005174; SURMS 786195 >>): Link change state UP to DOWN	
+11:11:11				PROBLEM		FRKT-CR5	Interface xe-2/1/14(<< 10GE to M10-CR9-A GE6/0/10:1; via RASCOM SVN_3416; SURMS 786195 >>): Link change state UP to DOWN	
+11:11:11				PROBLEM		FRKT-CR5	Interface et-5/1/5(<< 100GE to M7-CR9-A 100GE4/0/6, Rascom ID:RST_5970, SURMS 736111, 1200672 >>): Link change state UP to DOWN	
+11:11:11				PROBLEM		FRKT-CR5	Interface ae44(<< 4x10GE to M10-CR9-A Eth-Trunk40 >>): Link change state UP to DOWN	
+11:11:11				PROBLEM		FRKT-CR5	Interface et-11/0/2(<< 100GE to M7-CR9-A 100GE5/0/17, Rascom ID:RST_5960, SURMS 736111, 1200672 >>): Link change state UP to DOWN	
+11:11:11				PROBLEM		FRKT-CR5	Interface xe-2/1/18(<< 10GE to M10-CR9-A GE7/0/9:0; RASCOM SVN_3414; NewTelco 005178; SURMS 786195 >>): Link change state UP to DOWN	
+11:11:11				PROBLEM		FRKT-CR5	Interface xe-2/0/1(<< 10GE to M7-CR9-B GE7/0/10:0 RASCOM: SVN_3410; NT 005236; 10GEn145; SURMS 786391 >>): Link change state UP to DOWN	
+11:11:09				PROBLEM		FRKT-CR4	Interface et-0/1/5(<< 100GE to M7-CR9-A 100GE1/0/18; Rascom; ID:RST_5971; s1200670 >>): Link change state UP to DOWN	
+11:11:09				PROBLEM		FRKT-CR4	Interface et-0/0/5(<< 100GE to M7-CR9-A 100GE3/0/17; Rascom; ID:RST_5959; S730520, 1200670 >>): Link change state UP to DOWN	
+11:11:09				PROBLEM		FRKT-CR4	Interface ae42(<< 2x100GE to M7-CR9-A, Eth-Trunk30; SURMS 1200670 >>): Link change state UP to DOWN	
+11:10:13				PROBLEM		STKM-CR4	Interface et-1/1/5(<< 100GE to M7-CR9-A 100GE8/0/11, Rascom ID:RST_5966; SURMS 736112, 1199152 >>): Link change state UP to DOWN	
+11:10:12				PROBLEM		STKM-CR1	Interface xe-1/0/4(<< 10GE to M7-CR9-A GE7/0/12:2; 10Gen13; Rascom SVN 3418; SURMS 1135164 >>): Link change state UP to DOWN	
+11:10:12				PROBLEM		STKM-CR1	Interface xe-1/1/3(<< 10GE to M7-CR9-A GE7/0/12:1; 10Gen9; Rascom SVN3238; SURMS 1135164 >>): Link change state UP to DOWN	
+11:10:12				PROBLEM		STKM-CR1	Interface xe-1/0/2(<< 10GE to M7-CR9-A GE6/0/13:0; 10Gen12; Rascom SVN3417; SURMS 1135164 >>): Link change state UP to DOWN	

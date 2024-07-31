@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Утилизация</h1>
+<h2>По имени хоста(ов)</h2>
+<p>
+    В следующих форматах:<br>
+    1. Имя хоста А. Точка А - Соседи. Пример: FRKT-CR4<br>
+    2. Имя хоста А_Имя хоста Б. Точка А - Точка Б. Пример: FRKT-CR4_M7-CR9-A<br>
+    3. Имя хоста А_Имя хоста Б,Имя хоста В_Имя хоста Г. Пример: FRKT-CR4_M7-CR9-A,UAK3-CR4-B_PSKV-RGR2 (Лимит количества направлений 3)
+</p>
+<form action="" method="post" novalidate>
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.string (size=1200, cols=235) }}
+        {% for error in form.string.errors %}
+        <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.instance.label}}
+        {{ form.instance }}
+    </p>
+    <p>{{ form.submit() }}</p>
+</form>
+{% if content %}
+    {% for dirn in content %}
+        {% if dirn['strm'] == 'Down' %}
+            {% include '_utilization_content.html' %}
+        {% endif %}
+    {% endfor %}
+<hr size="12em" color="grey">
+    {% for dirn in content %}
+        {% if dirn['strm'] == 'Up' %}
+            {% include '_utilization_content.html' %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+<p>content no</p>
+{% endif %}
+{% endblock %}

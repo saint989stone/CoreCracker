@@ -1,0 +1,57 @@
+14:54:30				ПРОБЛЕМА		AKBL-CATS-AR1	Магистральный порт ge-1/0/7 в состоянии Down Desc:=== -M- | Link to ORNB-ATS56-DR2 MX960 ge-3/3/6 | 03.03.2021 | Serjogin	
+14:54:29				ПРОБЛЕМА		AKBL-CATS-AR1	Магистральный порт ge-1/0/6 в состоянии Down Desc:=== -M- | Link to ORNB-ATS56-DR1 MX960 ge-3/3/6 | 03.03.2021 | Serjogin
+г. Ориенбург - п. Акбулак П Общая емкость 8x1 Gb/s потерянная емкость 4 Gb/s Задействованная емкость в ЧНН 3.5 Gb/s
+	
+14:51:37				ПРОБЛЕМА		ORSK-ATS21-AR1	Магистральный порт xe-0/1/0 в состоянии Down Desc:=== -M- | Link to Orenburg DR1 MX960 xe-11/2/2 | cherez Sarakrash| 16-11-16 | Suhov	
+14:51:33				ПРОБЛЕМА		ORSK-ATS21-AR1	Магистральный порт xe-0/0/0 в состоянии Down Desc:=== -M- | Link to Orenburg DR1 MX960 xe-8/0/0 | cherez Sarakrash| 16-11-16 | Suhov	
+14:51:22				ПРОБЛЕМА		ORSK-ATS21-AR1	Магистральный порт ae10 в состоянии Down Desc: === -M- | Link to Orenburg DR1 MX960 ae 14 | cherez Sarakrash| 16-11-16 | Suhov 
+г. Ориенбург - г. Орск Общая емкость  4x10 Gb/s потерянная емкость 2x10 Gb/s Задействованная емкость в ЧНН 12,2 Gb/s
+	
+14:16:08				ПРОБЛЕМА		SARK-CATS-AR1	Магистральный порт Te3/2 в состоянии Down Desc:=== -M- | Link to Orenburg MX960 DR1 xe-7/0/1 priamoj | 15-11-16	
+
+
+14:13:33				ПРОБЛЕМА		KUVN-CATS-AR1	Магистральный порт Te3/2 в состоянии Down Desc:=== -M-| Link to Orenburg DR1 MX960 xe-7/1/0 | cherez Saraktash 
+г. Ориенбург - г. Кувандык Общая емкость  2x10 Gb/s потерянная емкость 1x10 Gb/s Задействованная емкость в ЧНН 6,3 Gb/s 
+
+	
+14:10:31				ПРОБЛЕМА		ADAM-CATS-AR1	Магистральный порт Te4/2 в состоянии Down Desc:=== -M- | Link to ORNB-ATS56-DR1 xe-7/2/1 | Saraktash | 20.23.20	
+г. Ориенбург - c. Адамовка Общая емкость 3x10 потерянная емкость 1x10 Gb/s Задействованная емкость в ЧНН 4 Gb/s
+
+
+
+14:10:23				ПРОБЛЕМА		DOMB-CATS-AR1	Магистральный порт Gi1/8 в состоянии Down Desc:=== -M- | Link to ORNB-ATS56-DR2 MX960 ge-3/3/7 via Saraktash an	
+14:10:22				ПРОБЛЕМА		DOMB-CATS-AR1	Магистральный порт Gi1/7 в состоянии Down Desc:=== -M- | Link to ORNB-ATS56-DR1 MX960 ge-3/3/7 via Saraktash an	
+г. Ориенбург - п. Домбаровский Общая емкость 4x1Gb/s потерянная емкость 2x1 Gb/s Задействованная емкость в ЧНН 1,6 Gb/s
+
+-14:09:37				ПРОБЛЕМА		MEDN-CATS-AR1	Магистральный порт Te4/4 в состоянии Down Desc:=== -M-| Link to Orenburg DR2 MX960 xe-11/0/3 | | 16-11-16 | Evs	
+г. Ориенбург - г. Медногорск Общая емкость 4x1Gb/s потерянная емкость 2x1 Gb/s Задействованная емкость в ЧНН 1,6 Gb/s
+
+14:08:54				ПРОБЛЕМА		NRSK-CATS-AR1	Магистральный порт xe-1/3/0 в состоянии Down Desc: === -M- | Link to ORNB-ATS56-DR1 MX960 xe-7/1/2 cherez Saraktash | Serjogin | 26.12.2017	
+г. Ориенбург - г. Новоорск Общая емкость 2x10 Gb/s потерянная емкость 1x10 Gb/s Задействованная емкость в ЧНН 4 Gb/s
+
+14:48:25				ПРОБЛЕМА		ORNB-ATS56-DR2	Магистральный порт ge-3/3/3 в состоянии Down Desc:=== -M-| Link to Belyaevka 6506 Ge5/4 | cherez Saraktash | | 16-11-16 | Evsyukov 	
+14:48:04				ПРОБЛЕМА		ORNB-ATS56-DR2	Магистральный порт ge-3/1/3 в состоянии Down Desc:=== -M-| Link to AKBL-CATS-AR1 ge-1/1/9 | 03.03.2021 | Serjogin	
+14:47:45				ПРОБЛЕМА		ORNB-ATS56-DR2	Магистральный порт xe-11/0/3 в состоянии Down Desc:=== -M-| Link to Mednogorsk 7606 Te4/4 | | 16-11-16 | Evsyukov 	
+14:47:44				ПРОБЛЕМА		ORNB-ATS56-DR2	Магистральный порт xe-11/0/2 в состоянии Down Desc:=== -M- | Link to GAY-CATS-AR1 xe-3/0/9 | | 17.06.2021 | Serjogin	
+
+11:11:49						NNOV-CR4-B	Interface Eth-Trunk26(\"<< 1x100G to M7-CR9-B Eth-Trunk52 via Inoventika >>\"): Link change state UP to DOWN	down (2), "<< 1x100G to M7-CR9..., up (1)	58s	No	1 action
+11:11:49						NNOV-CR4-B	Interface 100GE2/0/4(\"<< 100GE to M7-CR9-B 100GE3/0/14 via Inoventika >>\"): Link change state UP to DOWN	down (2), "<< 100GE to M7-CR9-..., up (1)	58s	No	1 action
+11:11:49						NNOV-CR4-B	Interface Eth-Trunk29(\"<< 1x100G to M7-CR9-B Eth-Trunk38 via Inoventika>>\"): Link change state UP to DOWN	down (2), "<< 1x100G to M7-CR9..., up (1)	58s	No	1 action
+11:11:49						NNOV-CR4-B	Interface 100GE1/0/3(\"<< 100GE to M7-CR9-B 100GE8/0/10 via Inoventika >>\"): Link change state UP to DOWN	down (2), "<< 100GE to M7-CR9-..., up (1)	58s	No	1 action
+11:11:48						NNOV-CR4-A	Interface Eth-Trunk27(\"<< 1x100GE to M7-CR9-A Eth-Trunk42 via Inoventika link4 SURMS 673484 ot 20.01.2020>>\"): Link change state UP to DOWN	down (2), "<< 1x100GE to M7-CR..., up (1)	59s	No	1 action
+11:11:48						NNOV-CR4-A	Interface 100GE1/0/6(\"<< 100GE to M7-CR9-A 100GE5/0/11 via Inoventika >>\"): Link change state UP to DOWN	down (2), "<< 100GE to M7-CR9-..., up (1)	59s	No	1 action
+11:11:48						NNOV-CR4-A	Interface 100GE2/0/4(\"<< 1x100GE to M7-CR9-A 100GE3/0/11 via Inoventika SURMS 673484 ot 20.01.2020>>\"): Link change state UP to DOWN	down (2), "<< 1x100GE to M7-CR..., up (1)	1m	No	1 action
+11:11:48						NNOV-CR4-A	Interface Eth-Trunk26(\"<< 1x100G to M7-CR9-A Eth-Trunk52 via Inoventika >>\"): Link change state UP to DOWN	down (2), "<< 1x100G to M7-CR9..., up (1)	1m	No	1 action
+11:11:45						M7-CR9-B	Interface 100GE1/0/4(<< 100GE to EBRG-CR5-B et-2/0/25 via Inoventica (Megafon); ID (Inoventica) Rostelecom-2 MSK-EBRG 100GE, P-4427/18; S760379; Eth-Trunk61 >>): Link change state UP to DOWN	down (2), << 100GE to EBRG-CR5..., up (1)	1m 3s	No	1 action
+11:11:45						M7-CR9-B	Interface Eth-Trunk38(<< 1x100GE to NNOV-CR4-B Eth29; S760201 >>): Link change state UP to DOWN	down (2), << 1x100GE to NNOV-C..., up (1)	1m 3s	No	1 action
+11:11:45						M7-CR9-B	Interface 100GE8/0/10(<< 100GE to NNOV-CR4-B 100GE1/0/3 ID- Megafon (KDI 4-ii kanal); P-1622/20; S760201; Eth-Trunk38 >>): Link change state UP to DOWN	down (2), << 100GE to NNOV-CR4..., up (1)	1m 3s	No	1 action
+11:11:45						M7-CR9-B	Interface Eth-Trunk61(<< 2x100GE to EBRG-CR5-B ae4; S823583 >>): Link change state UP to DOWN	down (2), << 2x100GE to EBRG-C..., up (1)	1m 3s	No	1 action
+11:11:45						M7-CR9-B	Interface 100GE3/0/14(<< 100GE to NNOV-CR4-B 100GE2/0/4 ID-6272400909 Megafon (KDI 1-ii kanal); P-4216/18; S760200(1185538); Eth-Trunk52 >>): Link change state UP to DOWN	down (2), << 100GE to NNOV-CR4..., up (1)	1m 3s	No	1 action
+11:11:45						M7-CR9-B	Interface 100GE2/0/16(<< 100GE to EBRG-CR5-B et-4/0/25 via Inoventica (Megafon); ID (Inoventica) Rostelecom-3 MSK-EBRG 100GE, P-4153/20; S823583; Eth-Trunk61 >>): Link change state UP to DOWN	down (2), << 100GE to EBRG-CR5..., up (1)	1m 3s	No	1 action
+11:11:45						M7-CR9-B	Interface Eth-Trunk52(<< 1x100GE to NNOV-CR4-B Eth-Trunk26; S760200(1185538) >>): Link change state UP to DOWN	down (2), << 1x100GE to NNOV-C..., up (1)	1m 3s	No	1 action
+11:11:44						M7-CR9-A	Interface Eth-Trunk42(<< 1x100GE to NNOV-CR4-A Eth27; S754449 >>): Link change state UP to DOWN	down (2), << 1x100GE to NNOV-C..., up (1)	1m 4s	No	1 action
+11:11:44						M7-CR9-A	Interface 100GE5/0/11(<< 100GE to NNOV-CR4-A 100GE1/0/6 ID-6272400909 Megafon(KDI 2-oi kanal); P-4218/18; S754530; Eth-Trunk52 >>): Link change state UP to DOWN	down (2), << 100GE to NNOV-CR4..., up (1)	1m 4s	No	1 action
+11:11:44						M7-CR9-A	Interface Eth-Trunk61(<< 1x100GE to EBRG-CR5-A ae4; S643397 >>): Link change state UP to DOWN	down (2), << 1x100GE to EBRG-C..., up (1)	1m 4s	No	1 action
+11:11:44						M7-CR9-A	Interface 100GE3/0/11(<< 100GE to NNOV-CR4-A 100GE2/0/4; Innoventika#3, 1-1228, 2r, 16m via 12floor; P-5834/19; S754449; Eth-Trunk42 >>): Link change state UP to DOWN	down (2), << 100GE to NNOV-CR4..., up (1)	1m 4s	No	1 action
+11:11:44						M7-CR9-A	Interface Eth-Trunk52(<< 1x100GE to NNOV-CR4-A Eth26; S754530 >>): Link change state UP to DOWN	down (2), << 1x100GE to NNOV-C..., up (1)	1m 4s	No	1 action
+11:11:44						M7-CR9-A	Interface 100GE2/0/4(<< 100GE to EBRG-CR5-A et-2/0/25, via Inoventica (ID Rostelecom-1 MSK-EBRG 100GE); 1-1228, 3r, 5m, P-2300/2018; S643397; Eth-Trunk61 >>): Link change state UP to DOWN	down (2), << 100GE to EBRG-CR5..., up (1)	1m 4s	No	1 action

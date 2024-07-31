@@ -1,0 +1,59 @@
+shell
+>>> from app import db
+>>> from app.models import User, Post
+
+
+c:\python\python3104\python.exe c:\python\python3104\lib\site-packages\pip install flask - установка пакетов
+
+D:\Google Диск\projects\CoreCracker>c:\python\python3104\python.exe -m venv venv - установка виртуальной среды
+venv\Scripts\activate - активировать среду
+
+C:\microblog>pip install flask - установка flask
+
+set FLASK_APP=microblog.py - Flask нужно сообщить, как его импортировать, установив переменную среды FLASK_APP
+
+flask run - запуск flask
+
+pip install py-zabbix - установка zabbix api
+
+pip install flask-wtf
+
+pip install flask-sqlalchemy - 
+
+pip install flask-migrate - 
+
+flask db init - создание репозитория миграции базы данных
+
+flask db migrate -m "users table" - миграция базы данных после которой создается фаил app.db. Migrate не вносит
+никаких изменений в базу данных, она просто создает сценарий миграции
+
+flask db upgrade - применение изменений в базе данных 
+
+pip install flask-login
+
+set FLASK_DEBUG=1 - включение режима отладчика
+
+pip install flask-mail
+
+pip install pyjwt - генератор безопасных токенов JSON Web Tokens
+
+(venv) $ set MAIL_SERVER=smtp.googlemail.com
+(venv) $ set MAIL_PORT=587
+(venv) $ set MAIL_USE_TLS=1
+(venv) $ set MAIL_USERNAME=<your-gmail-username>
+(venv) $ set MAIL_PASSWORD=<your-gmail-password>
+ИНСТРУКЦИЯ ПО ОТПРАВКЕ MAIL
+>>> from flask_mail import Message
+>>> from app import mail
+>>> msg = Message('test subject', sender=app.config['ADMINS'][0],
+... recipients=['your-email@example.com'])
+>>> msg.body = 'text body'
+>>> msg.html = '<h1>HTML body</h1>'
+>>> mail.send(msg)
+
+pip install flask-moment - библиотека по отображению даты и времени в различных вариантах форматирования
+
+set FLASK_DEBUG=0
+set FLASK_HOST=10.144.2.232
+set FLASK_PORT=5000
+flask run --host=10.144.2.232

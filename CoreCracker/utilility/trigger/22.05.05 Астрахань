@@ -1,0 +1,64 @@
+17:47:55				PROBLEM		AST-ZNM-SC-R1	Interface xe-4/1/0(-- ae1: AST-CR-R2 xe-4/3/2 -- _CORE_MCAST): Link change state UP to DOWN	
+down (2), -- ae1: AST-CR-R2 xe..., up (1)	11m 9s	No	1 action
+17:47:55				PROBLEM		AST-ZNM-SC-R1	Interface ae1(<< AST-CR-R2 | ae10 | 10G | DWDM | IP/MPLS >> _CORE): Link change state UP to DOWN	
+down (2), << AST-CR-R2 | ae10 ..., up (1)	11m 9s	No	1 action
+17:47:55				PROBLEM		AST-KRA-CS-R1	Interface xe-0/0/1(-- ae0: AST-HAR-R1 xe-2/2/0 -- CORE_MCAST): Link change state UP to DOWN	
+down (2), -- ae0: AST-HAR-R1 x..., up (1)	11m 9s	No	1 action
+17:47:55				PROBLEM		AST-KRA-CS-R1	Interface ge-2/1/1($AST-KRA-MLDJ-SW1_Ethernet1/0/4$ Fiber | L2 | to Molodezhny (QSW-8200-28F) _ASW): Link change state UP to DOWN	
+down (2), $AST-KRA-MLDJ-SW1_Et..., up (1)	11m 9s	No	1 action
+17:47:55				PROBLEM		AST-KRA-CS-R1	Interface ae0(<< AST-HAR-R1 | ae1 | 10G | DWDM | IP/MPLS >> _CORE): Link change state UP to DOWN	
+down (2), << AST-HAR-R1 | ae1 ..., up (1)	11m 9s	No	1 action
+17:47:55				PROBLEM		AST-AS-039-R1	Interface xe-3/1/0(-- ae30: DWDM | Local-switching for MTS --): Link change state UP to DOWN	
+down (2), -- ae30: DWDM | Loca..., up (1)	11m 9s	No	1 action
+17:47:55				PROBLEM		AST-AS-039-R1	Interface xe-3/0/3(-- ae30: DWDM | Local-switching for MTS --): Link change state UP to DOWN	
+down (2), -- ae30: DWDM | Loca..., up (1)	11m 9s	No	1 action
+17:47:55				PROBLEM		AST-AS-039-R1	Interface ae30(Local-switching for MTS --): Link change state UP to DOWN	
+down (2), Local-switching for ..., up (1)	11m 9s	No	1 action
+17:47:54				PROBLEM		AST-HAR-CS-R1	Interface ae1(<< AST-KRA-R1 | ae0 | 10G | DWDM | IP/MPLS >> _CORE): Link change state UP to DOWN	
+down (2), << AST-KRA-R1 | ae0 ..., up (1)	11m 10s	No	1 action
+17:47:54				PROBLEM		AST-HAR-CS-R1	Interface xe-2/2/0(-- ae1: AST-KRA-R1 xe-0/0/1 -- CORE_MCAST): Link change state UP to DOWN	
+down (2), -- ae1: AST-KRA-R1 x..., up (1)	11m 10s	No	1 action
+17:47:54				PROBLEM		AST-AHT-CS-R1	Interface xe-0/1/0(-- ae0: AST-CR-R1 xe-0/3/1 -- _CORE): Link change state UP to DOWN	
+down (2), -- ae0: AST-CR-R1 xe..., up (1)	11m 10s	No	1 action
+17:47:54				PROBLEM		AST-AHT-CS-R1	Interface ae1(<< AST-CR-R2 | ae9 | DWDM | IP/MPLS -- CORE_MCAST >> _CORE): Link change state UP to DOWN	
+down (2), << AST-CR-R2 | ae9 |..., up (1)	11m 10s	No	1 action
+17:47:54				PROBLEM		AST-AHT-CS-R1	Interface xe-2/3/0(-- ae1: AST-CR-R2 xe-4/0/3 -- _CORE_MCAST): Link change state UP to DOWN	
+down (2), -- ae1: AST-CR-R2 xe..., up (1)	11m 10s	No	1 action
+17:47:47				PROBLEM		ASTR-RGR3	Interface xe-5/1/5(<< 10GE to UAK6-CR4-B Gi9/1/0 S572106/T3228 19-2-10107-2 >>): Link change state UP to DOWN	
+down (2), << 10GE to UAK6-CR4-..., up (1)	11m 17s	No	1 action
+17:47:47				PROBLEM		ASTR-RGR3	Interface xe-5/2/0(<< 10GE to UAK6-CR4-B Gi8/1/12 S682928/T3229 >>): Link change state UP to DOWN	
+down (2), << 10GE to UAK6-CR4-..., up (1)	11m 17s	No	1 action
+17:47:47				PROBLEM		ASTR-RGR3	Interface xe-5/0/5(<< 10GE to UAK6-CR4-B Gi8/1/2 S572106/T3228 19-2-10107-1 >>): Link change state UP to DOWN	
+down (2), << 10GE to UAK6-CR4-..., up (1)	11m 17s	No	1 action
+17:47:47				PROBLEM		ASTR-RGR3	Interface ae4(<< 3x10GE to UAK6-CR4-B Eth-Trunk34 S572108/T3229 >>): Link change state UP to DOWN	
+down (2), << 3x10GE to UAK6-CR..., up (1)	11m 17s	No	1 action
+17:47:46				PROBLEM		ASTR-RGR2	Interface xe-1/1/0(<< 10GE to UAK6-CR4-B Gi9/1/1 S572106/T3228 19-2-10106-2 >>): Link change state UP to DOWN	
+down (2), << 10GE to UAK6-CR4-..., up (1)	11m 18s	No	1 action
+17:47:46				PROBLEM		ASTR-RGR2	Interface xe-5/0/4(<< 10GE to UAK6-CR4-B Gi8/1/11 S682924/T3228 19-2-10106-1 >>): Link change state UP to DOWN	
+down (2), << 10GE to UAK6-CR4-..., up (1)	11m 18s	No	1 action
+17:47:46				PROBLEM		ASTR-RGR2	Interface ae1(<< 3x10GE to UAK6-CR4-B Eth-Trunk33 S572106/T3228 >>): Link change state UP to DOWN	
+down (2), << 3x10GE to UAK6-CR..., up (1)	11m 18s	No	1 action
+17:47:46				PROBLEM		ASTR-RGR2	Interface xe-5/3/1(<< 10GE to UAK6-CR4-B Gi8/1/1 S572106/T3228 19-2-10106-1 >>): Link change state UP to DOWN	
+down (2), << 10GE to UAK6-CR4-..., up (1)	11m 18s	No	1 action
+17:47:45				PROBLEM		AST-CHR-CS-R1	Interface ae1(<< AST-CR-R2 | ae15 | 10G | DWDM | IP/MPLS >> _CORE): Link change state UP to DOWN	
+down (2), << AST-CR-R2 | ae15 ..., up (1)	11m 19s	No	1 action
+17:47:45				PROBLEM		AST-CHR-CS-R1	Interface xe-4/0/1(-- ae1: AST-CR-R2 xe-8/1/1 -- _CORE_MCAST): Link change state UP to DOWN	
+down (2), -- ae1: AST-CR-R2 x..., up (1)	11m 19s	No	1 action
+17:47:44				PROBLEM		AST-CR-R2	Interface ae11(<< AST-NAR-R1 | ae1 | 10G | DWDM | IP/MPLS >>): Link change state UP to DOWN	
+down (2), << AST-NAR-R1 | ae1 ..., up (1)	11m 20s	No	1 action
+17:47:44				PROBLEM		AST-CR-R2	Interface xe-4/3/2(-- ae10: AST-ZNM-CS-R1 xe-4/1/0 --): Link change state UP to DOWN	
+down (2), -- ae10: AST-ZNM-CS-..., up (1)	11m 20s	No	1 action
+17:47:44				PROBLEM		AST-CR-R2	Interface ae9(<< AST-AHT-R1 | ae1 | 10G | DWDM | IP/MPLS >>): Link change state UP to DOWN	
+down (2), << AST-AHT-R1 | ae1 ..., up (1)	11m 20s	No	1 action
+17:47:44				PROBLEM		AST-CR-R2	Interface ae10(<< AST-ZNM-CS-R1 | ae1 | 10G | DWDM | IP/MPLS >>): Link change state UP to DOWN	
+down (2), << AST-ZNM-CS-R1 | a..., up (1)	11m 20s	No	1 action
+17:47:44				PROBLEM		AST-CR-R2	Interface xe-8/1/1(-- ae15: AST-CHR-CS-R1 xe-4/0/1 --): Link change state UP to DOWN	
+down (2), -- ae15: AST-CHR-CS-..., up (1)	11m 20s	No	1 action
+17:47:44				PROBLEM		AST-CR-R2	Interface xe-4/3/3(-- ae11: AST-NAR-R1 xe-4/0/0 --): Link change state UP to DOWN	
+down (2), -- ae11: AST-NAR-R1 ..., up (1)	11m 20s	No	1 action
+17:47:44				PROBLEM		AST-CR-R2	Interface xe-4/0/3(-- ae9: AST-AHT-CS-R1 xe-2/3/0 --): Link change state UP to DOWN	
+down (2), -- ae9: AST-AHT-CS-R..., up (1)	11m 20s	No	1 action
+17:47:44				PROBLEM		AST-CR-R2	Interface ae15(<< AST-CHR-CS-R1 | ae1 | 10G | DWDM | IP/MPLS >>): Link change state UP to DOWN	
+down (2), << AST-CHR-CS-R1 | a..., up (1)	11m 20s	No	1 action
+17:47:44				PROBLEM		AST-CR-R1	Interface xe-0/3/1(-- ae9: AST-AHT-R1 xe-0/1/0 --): Link change state UP to DOWN	
+down (2), -- ae9: AST-AHT-R1 x..., up (1)

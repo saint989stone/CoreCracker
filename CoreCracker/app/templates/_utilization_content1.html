@@ -1,0 +1,115 @@
+<p>
+    <h2>Направление {{ dirn['host_A_B']}}</h2>
+    <table border="1" cellpadding="2">
+        <thead valign="top">
+            <td>Точка A</td>
+            <td>Адрес A</td>
+            <td>Точка Б</td>
+            <td>Адрес Б</td>
+            <td>Общая<br>емкость, Гб/с</td>
+            <td>Текущая<br>емкость, Гб/с</td>
+            <td>Потерянная<br>емкость, Гб/с</td>
+            <td>Текущая<br>входящая/исходящая<br>нагрузка, Гб/с</td>
+            <td>Максимальная<br>входящая/исходящая<br>нагрузка за 7 дней, Гб/с</td>
+            <td>Средняя<br>максимальная<br>входящая/исходящая<br>нагрузка за 7 дней, Гб/с</td>
+            <td>Время<br>деградации<br>входящего<br>трафика</td>
+            <td>Время<br>деградации<br>исходящего<br>трафика</td>
+            <td>График<br>статусов<br>интерфейсов</td>
+            <td>График<br>скоростей</td>
+            <td>График<br>входящих<br>скоростей</td>
+            <td>График<br>исходящих<br>скоростей</td>
+        </thead>
+        <tr valign="top">
+            <td>{{ dirn['host_A'] }}</td>
+            <td>{{ dirn['IP_A'] }}</td>
+            <td>{{ dirn['host_B'] }}</td>
+            <td>{{ dirn['IP_B'] }}</td>
+            <td>{{ dirn['highSpedFull'] }}</td>
+            <td>{{ dirn['highSpedUp'] }}</td>
+            <td>{{ dirn['highSpedDown'] }}</td>
+            <td>{{ dirn['bitsRecd'] }} / {{ dirn['bitsSent'] }}</td>
+            <td>{{ dirn['tredBitsRecdMax'] }} / {{ dirn['tredBitsSentMax'] }}</td>
+            <td>{{ dirn['tredBitsRecdMaxAvrg'] }} / {{ dirn['tredBitsSentMaxAvrg'] }}</td>
+            <td>
+                {% for clok in dirn['tredListClokDegnRecd'] %}
+                {{ clok[0] }} - {{clok[-1] }}
+                <br>
+                {% endfor %}
+            </td>
+            <td>
+                {% for clok in dirn['tredListClokDegnSent'] %}
+                {{ clok[0] }} - {{clok[-1] }}
+                <br>
+                {% endfor %}
+            </td>
+            <td>
+                <a href="{{ dirn['linkGrahStts'] }}">Ссылка</a>
+            </td>
+            <td>
+                <a href="{{ dirn['linkGrahSpedFull'] }}">Ссылка</a>
+            </td>
+            <td>
+                <a href="{{ dirn['linkGrahBitsRecd'] }}">Ссылка</a>
+            </td>
+            <td>
+                <a href="{{ dirn['linkGrahBitsSent'] }}">Ссылка</a>
+            </td>
+        </tr>
+    </table>
+
+    {% if dirn['listIntcItem'] != [] %}
+    <h3>Интерфейсы</h3>
+    <table border="1" cellpadding="2">
+        <thead>
+            <td>Интерфейс А</td>
+            <td>Интерфейс Б</td>
+            <td>Административный<br>статус</td>
+            <td>Оперативный<br>статус</td>
+            <td>Емкость, Гб/с</td>
+            <td>Текущая<br>входящая/исходящая<br>нагрузка, Гб/с</td>
+            <td>Максимальная<br>входящая/исходящая<br>нагрузка , Гб/с</td>
+            <td>График<br>статусов<br>интерфейсов</td>
+            <td>График<br>cкоростей</td>
+        </thead>
+        {% for intc in dirn['listIntcItem'] %}
+        <tr>
+            <td>{{ intc['intc_A'] }}</td>
+            <td>{{ intc['intc_B'] }}</td>
+            <td>{{ intc['admnStts'] }}</td>
+            <td>{{ intc['operStts'] }}</td>
+            <td>{{ intc['highSped'] }}</td>
+            <td>{{ intc['bitsRecd'] }} / {{ intc['bitsSent'] }}</td>
+            <td>{{ intc['tredBitsRecdMax'] }} / {{ intc['tredBitsSentMax'] }}</td>
+            <td>
+                <a href="{{ intc['linkGrahStts'] }}">Ссылка</a>
+            </td>
+            <td>
+                <a href="{{ intc['linkGrahSped'] }}">Ссылка</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+
+    {% if dirn['listIntcTrgr'] %}
+    <h3>Тригеры</h3>
+    <table border="1" cellpadding="2">
+        <thead>
+            <td>Интерфейс А</td>
+            <td>Интерфейс Б</td>
+            <td>Емкость, Гб/с</td>
+            <td>График скоростей</td>
+        </thead>
+        {% for intc in dirn['listIntcTrgr'] %}
+        <tr>
+            <td>{{ intc['intc_A'] }}</td>
+            <td>{{ intc['intc_B'] }}</td>
+            <td>{{ intc['highSped'] }}</td>
+            <td>
+                <a href="{{ intc['linkGrahSped'] }}">Ссылка</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+</p>

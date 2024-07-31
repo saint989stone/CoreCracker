@@ -1,0 +1,98 @@
+22.07.23
+Проблема
+Фаил 22.07.23 дублируется интерфейсы в таблице триггеров
+GigabitEthernet13/1/16   xe-2/3/0   10   Ссылка
+GigabitEthernet12/1/16   xe-2/1/0   10   Ссылка
+GigabitEthernet15/1/16   xe-4/3/0   10   Ссылка
+GigabitEthernet14/1/16   xe-4/1/0   10   Ссылка
+GigabitEthernet15/1/6   xe-5/3/0   10   Ссылка
+GE14/1/16   xe-4/1/0   10   Ссылка
+GE13/1/16   xe-2/3/0   10   Ссылка
+15/1/6   xe-5/3/0   10   Ссылка
+GE12/1/16   xe-2/1/0   10   Ссылка
+GE15/1/16   xe-4/3/0   10   Ссылка
+
+
+22.07.23
+Проблема:
+10-KEM-AR1 
+10-KEM-AR1 - MX480-1AG276-PTZK 
+Из за неправильного определения item правильно определяются графики.
+
+22.07.16
+Проблема:
+На Nokia 23-KRA-37-AR1-NOKIA некорретно определяются интерфейсы по item:
+	
+Interface 1/1/1 (<< CORE: 1x10G to 23-KRA-27-AR1: 1/1/1 >>): Admin status
+	2022-07-16 06:43:48	up (1)		Graph
+			
+Interface 1/1/1 (<< CORE: 1x10G to 23-KRA-27-AR1: 1/1/1 >>): Description
+	2022-07-16 06:39:58	<< CORE: 1x10G to 23-KRA-27-AR1: 1\/1\/1 >>		History
+			
+Interface 1/1/1 (<< CORE: 1x10G to 23-KRA-27-AR1: 1/1/1 >>): FSC Error delta
+	2022-07-16 06:39:58	0 error		Graph
+			
+Interface 1/1/1 (<< CORE: 1x10G to 23-KRA-27-AR1: 1/1/1 >>): HighSpeed
+	2022-07-16 06:39:58	10 Gbps		Graph
+			
+Interface 1/1/1 (<< CORE: 1x10G to 23-KRA-27-AR1: 1/1/1 >>): Operational status
+	2022-07-16 06:43:58	up (1)		Graph
+			
+Interface 1/1/1 (<< CORE: 1x10G to 23-KRA-27-AR1: 1/1/1 >>): packets Broadcast in
+	2022-07-16 06:39:58	0 pps		Graph
+			
+Interface 1/1/1 (<< CORE: 1x10G to 23-KRA-27-AR1: 1/1/1 >>): packets Broadcast out
+	2022-07-16 06:39:58	0 pps		Graph
+			
+Interface 1/1/1 (<< CORE: 1x10G to 23-KRA-27-AR1: 1/1/1 >>): packets discarded in
+	2022-07-16 06:39:58	0 pps		Graph
+			
+Interface 1/1/1 (<< CORE: 1x10G to 23-KRA-27-AR1: 1/1/1 >>): packets discarded out
+	2022-07-16 06:39:58	0 pps		Graph
+			
+Interface 1/1/1 (<< CORE: 1x10G to 23-KRA-27-AR1: 1/1/1 >>): packets Multicast in
+	2022-07-16 06:39:58	2 pps		Graph
+			
+Interface 1/1/1 (<< CORE: 1x10G to 23-KRA-27-AR1: 1/1/1 >>): packets Multicast out
+	2022-07-16 06:39:48	2 pps		Graph
+			
+Interface 1/1/1 (<< CORE: 1x10G to 23-KRA-27-AR1: 1/1/1 >>): packets Unicast in
+	2022-07-16 06:39:58	62.85 Kpps
+Решение: Добавлен шаблон     '\d{1,2}/\d{1,2}/c\d{1,2}',  # NokiA 1/6/c7;  '\d{1,2}/\d{1,2}/\d{1,2}'  #NOKIA 1/1/1
+
+22.07.14
+Проблема: 
+SPBR-CR4-A_SKTV-RGR3
+с поиском item ID. Вместо Giga13/0/1 выдает 13/0/10
+Решение:
+в функцию getIntcItemID дполнительно добавлена проверка по host_B
+if itemName in item['name'] and intc in item['name'] and host_B in item['name']:
+SPBR-CR4-A_SKTV-RGR3
+
+
+22.07.11 
+Проблема:
+KRDR-RGR5_UAK6-CR4-B Ошибка:
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask_login\utils.py", line 303, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "C:\Python\projects\CoreCracker\app\routes.py", line 246, in utilization_hosts
+    zabxDirn = parser.parsHosts(hosts, instance)
+  File "C:\Python\projects\CoreCracker\app\parser.py", line 71, in parsHosts
+    zabxDirn = zabxmax.uninUtilDirn(zabxDirn, inst)
+  File "C:\Python\projects\CoreCracker\app\zabxmax.py", line 54, in uninUtilDirn
+    intc_A, intc_B = parser.parsIntcItem(item['name'])   #получаем имена интерфейсов
+  File "C:\Python\projects\CoreCracker\app\parser.py", line 86, in parsIntcItem
+    return listIntc[0], listIntc[-1]
+IndexError: list index out of range
+
+C KRDR-RGR5_ELST-CR4-A работает
+
+Решение: Добвавлен шаблон \d{1,2}/\d{1,2}/[Cc]\d{1,2}/\d{1,2}

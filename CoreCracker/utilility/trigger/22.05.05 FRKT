@@ -1,0 +1,17 @@
+2022-05-04 10:35:37				PROBLEM		FRKT-CR4	Interface et-8/0/2(<< 100GE ae50 to M7-CR9-A 100GE9/0/7, NTC Fiord ID:RT-MSK-FRA-4, CMS-22-095198, SURMS-1178703 >>): Link change state UP to DOWN	
+down (2), << 100GE ae50 to M7-..., up (1)	17h 8m 21s	No	1 action
+2022-05-04 10:35:37				PROBLEM		FRKT-CR4	Interface ae48(<< 2x100GE to M7-CR9-B, Eth-Trunk37; SURMS 1178700 >>): Link change state UP to DOWN	
+down (2), << 2x100GE to M7-CR9..., up (1)	17h 8m 21s	No	1 action
+2022-05-04 10:35:30				PROBLEM		STKM-CR1	Interface et-3/0/5(<< 100GE to M7-CR9-A, 100GE12/0/8; ae14; SURMS 1178039 >>): Link change state UP to DOWN	
+down (2), << 100GE to M7-CR9-A..., up (1)	17h 8m 28s	No	1 action
+2022-05-04 10:35:30				PROBLEM		STKM-CR1	Interface et-4/1/5(<< 100GE to M7-CR9-A, 100GE9/0/10; ae14; SURMS 1178039 >>): Link change state UP to DOWN	
+down (2), << 100GE to M7-CR9-A..., up (1)	17h 8m 28s	No	1 action
+2022-05-04 10:35:30				PROBLEM		STKM-CR1	Interface ae14(<< 2x100GE to M7-CR9-A, Eth-Trunk10; SURMS 1178039 >>): Link change state UP to DOWN	
+down (2), << 2x100GE to M7-CR9..., up (1)	17h 8m 28s	No	1 action
+2022-05-04 10:35:30				PROBLEM		FRKT-CR4	Interface et-3/1/2(<< 100GE ae48 to M7-CR9-B 100GE3/0/15, NTC Fiord ID:RT-MSK-FRA-1, CMS-22-095170, SURMS-1178700 >>): Link change state UP to DOWN	
+down (2), << 100GE ae48 to M7-..., up (1)	17h 8m 28s	No	1 action
+2022-05-04 10:35:30				PROBLEM		FRKT-CR4	Interface et-2/0/2(<< 100GE ae48 to M7-CR9-B 100GE10/0/8, NTC Fiord ID:RT-MSK-FRA-2, CMS-22-095170, SURMS-1178700 >>): Link change state UP to DOWN	
+down (2), << 100GE ae48 to M7-..., up (1)	17h 8m 28s	No	1 action
+2022-05-04 10:35:30				PROBLEM		FRKT-CR4	Interface ae50(<< 2x100GE to M7-CR9-A, Eth-Trunk69; SURMS 1178703 >>): Link change state UP to DOWN	
+down (2), << 2x100GE to M7-CR9..., up (1)	17h 8m 28s	No	1 action
+2022-05-04 10:35:30				PROBLEM		FRKT-CR4	Interface et-2/1/5(<< 100GE ae50 to M7-CR9-A 100GE2/0/16, NTC Fiord ID:RT-MSK-FRA-3, cms 22-095198, SURMS-1178703 >>): Link change state UP to DOWN

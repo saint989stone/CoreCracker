@@ -1,0 +1,118 @@
+2022-09-04 00:41:47,540 INFO: Corecracker startup [in C:\Python\projects\CoreCracker\app\__init__.py:81]
+2022-09-04 00:43:15,605 INFO: Corecracker startup [in C:\Python\projects\CoreCracker\app\__init__.py:81]
+2022-09-04 00:55:22,299 INFO: Corecracker startup [in C:\Python\projects\CoreCracker\app\__init__.py:81]
+2022-09-04 00:56:20,686 ERROR: Exception on /utilization_hosts [POST] [in C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py:1455]
+Traceback (most recent call last):
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask_login\utils.py", line 303, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "C:\Python\projects\CoreCracker\app\routes.py", line 245, in utilization_hosts
+    zabxDirn = parser.parsHosts(hosts, instance)
+  File "C:\Python\projects\CoreCracker\app\parser.py", line 48, in parsHosts
+    zabxDirn = zabxmax.uninUtilDirn(zabxDirn, inst)
+  File "C:\Python\projects\CoreCracker\app\zabxmax.py", line 114, in uninUtilDirn
+    getTredAvrg2(dirn['listIntcItem'], zabx)
+  File "C:\Python\projects\CoreCracker\app\zabxmax.py", line 130, in getTredAvrg2
+    listDays = getTredSerhDays(listItemIDOperStts, zabx)   #получаем список временных периодов, когда ни один из интерфейсов не падал
+  File "C:\Python\projects\CoreCracker\app\zabxmax.py", line 174, in getTredSerhDays
+    listPerdDays[-1].append(day) # если разница составляет 1 добавляем текущее значение в конец периода предыдущего
+IndexError: list index out of range
+2022-09-04 00:57:19,662 INFO: Corecracker startup [in C:\Python\projects\CoreCracker\app\__init__.py:81]
+2022-09-04 01:02:23,444 INFO: Corecracker startup [in C:\Python\projects\CoreCracker\app\__init__.py:81]
+2022-09-04 01:05:11,392 INFO: Corecracker startup [in C:\Python\projects\CoreCracker\app\__init__.py:81]
+2022-09-04 01:16:36,690 INFO: Corecracker startup [in C:\Python\projects\CoreCracker\app\__init__.py:81]
+2022-09-04 01:20:03,197 INFO: Corecracker startup [in C:\Python\projects\CoreCracker\app\__init__.py:81]
+2022-09-04 01:32:57,098 INFO: Corecracker startup [in C:\Python\projects\CoreCracker\app\__init__.py:81]
+2022-09-04 01:36:01,011 INFO: Corecracker startup [in C:\Python\projects\CoreCracker\app\__init__.py:81]
+2022-09-04 01:38:28,434 INFO: Corecracker startup [in C:\Python\projects\CoreCracker\app\__init__.py:81]
+2022-10-03 13:05:33,536 ERROR: Exception on /utilization_hosts [POST] [in C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py:1455]
+Traceback (most recent call last):
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask_login\utils.py", line 303, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "C:\Python\projects\CoreCracker\app\routes.py", line 245, in utilization_hosts
+    zabxDirn = parser.parsHosts(hosts, instance)
+  File "C:\Python\projects\CoreCracker\app\parser.py", line 48, in parsHosts
+    zabxDirn = zabxmax.uninUtilDirn(zabxDirn, inst)
+  File "C:\Python\projects\CoreCracker\app\zabxmax.py", line 71, in uninUtilDirn
+    intc['tredBitsRecdMax'] = getTredMax(intc['itemIDBitsRecd'], zabx)
+  File "C:\Python\projects\CoreCracker\app\zabxmax.py", line 415, in getTredMax
+    tred = round(max(listTred) / 10**9, 3)
+ValueError: max() arg is an empty sequence
+2022-10-03 13:05:53,147 ERROR: Exception on /utilization_hosts [POST] [in C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py:1455]
+Traceback (most recent call last):
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask_login\utils.py", line 303, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "C:\Python\projects\CoreCracker\app\routes.py", line 245, in utilization_hosts
+    zabxDirn = parser.parsHosts(hosts, instance)
+  File "C:\Python\projects\CoreCracker\app\parser.py", line 48, in parsHosts
+    zabxDirn = zabxmax.uninUtilDirn(zabxDirn, inst)
+  File "C:\Python\projects\CoreCracker\app\zabxmax.py", line 71, in uninUtilDirn
+    intc['tredBitsRecdMax'] = getTredMax(intc['itemIDBitsRecd'], zabx)
+  File "C:\Python\projects\CoreCracker\app\zabxmax.py", line 415, in getTredMax
+    tred = round(max(listTred) / 10**9, 3)
+ValueError: max() arg is an empty sequence
+2022-10-03 13:07:11,437 ERROR: Exception on /utilization_hosts [POST] [in C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py:1455]
+Traceback (most recent call last):
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask_login\utils.py", line 303, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "C:\Python\projects\CoreCracker\app\routes.py", line 245, in utilization_hosts
+    zabxDirn = parser.parsHosts(hosts, instance)
+  File "C:\Python\projects\CoreCracker\app\parser.py", line 48, in parsHosts
+    zabxDirn = zabxmax.uninUtilDirn(zabxDirn, inst)
+  File "C:\Python\projects\CoreCracker\app\zabxmax.py", line 71, in uninUtilDirn
+    intc['tredBitsRecdMax'] = getTredMax(intc['itemIDBitsRecd'], zabx)
+  File "C:\Python\projects\CoreCracker\app\zabxmax.py", line 415, in getTredMax
+    tred = round(max(listTred) / 10**9, 3)
+ValueError: max() arg is an empty sequence
+2022-10-03 13:09:55,546 ERROR: Exception on /utilization_hosts [POST] [in C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py:1455]
+Traceback (most recent call last):
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python\projects\CoreCracker\venv\lib\site-packages\flask_login\utils.py", line 303, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "C:\Python\projects\CoreCracker\app\routes.py", line 245, in utilization_hosts
+    zabxDirn = parser.parsHosts(hosts, instance)
+  File "C:\Python\projects\CoreCracker\app\parser.py", line 48, in parsHosts
+    zabxDirn = zabxmax.uninUtilDirn(zabxDirn, inst)
+  File "C:\Python\projects\CoreCracker\app\zabxmax.py", line 71, in uninUtilDirn
+    intc['tredBitsRecdMax'] = getTredMax(intc['itemIDBitsRecd'], zabx)
+  File "C:\Python\projects\CoreCracker\app\zabxmax.py", line 415, in getTredMax
+    tred = round(max(listTred) / 10**9, 3)
+ValueError: max() arg is an empty sequence

@@ -1,0 +1,91 @@
+'listIntcItem': [{
+'intc_A': '100GE2/0/15', 
+'intc_B': 'et-0/0/2', 
+'admnStts': 'Up', 
+'operStts': 'Up', 
+'highSped': 100, 
+'itemIDAdmnStts': '15451924', 
+'itemIDOperStts': '15452428', 
+'itemIDHighSped': '15451420', 
+'itemIDBitsRecd': '15447388', 
+'itemIDBitsSent': '15450412', 
+'linkGrahStts': 
+'http://zabbix-mpls.noc.rt.ru/history.php?action=batchgraph&itemids%5B15451924%5D=15451924&itemids%5B15452428%5D=15452428&graphtype=0', 'linkGrahSped': 'http://zabbix-mpls.noc.rt.ru/history.php?action=batchgraph&itemids%5B15451420%5D=15451420&itemids%5B15447388%5D=15447388&itemids%5B15450412%5D=15450412&graphtype=0'}, {'intc_A': '100GE3/0/15', 'intc_B': 'et-3/1/2', 'admnStts': 'Up', 'operStts': 'Up', 'highSped': 100, 'itemIDAdmnStts': '15451944', 'itemIDOperStts': '15452448', 'itemIDHighSped': '15451440', 'itemIDBitsRecd': '15447408', 'itemIDBitsSent': '15450432', 'linkGrahStts': 'http://zabbix-mpls.noc.rt.ru/history.php?action=batchgraph&itemids%5B15451944%5D=15451944&itemids%5B15452448%5D=15452448&graphtype=0', 'linkGrahSped': 'http://zabbix-mpls.noc.rt.ru/history.php?action=batchgraph&itemids%5B15451440%5D=15451440&itemids%5B15447408%5D=15447408&itemids%5B15450432%5D=15450432&graphtype=0'},
+
+
+
+
+'host_A_B': 'FRKT-CR4 _ M7-CR9-A', 
+'host_B_A': 'M7-CR9-A _ FRKT-CR4', 
+'host_A': 'FRKT-CR4', 
+'host_B': 'M7-CR9-A', 
+'IP_A': <class 'str'>, 
+'IP_B': <class 'str'>, 
+'highSpedDown': 200.0, 
+'intcList': [{
+			'intc_A': 'et-8/0/2', 
+			'intc_B': '100GE9/0/7', 
+			'highSped': 100.0, 
+			'linkGrah': 'http://zabbix-mpls.noc.rt.ru/history.php?action=batchgraph&itemids%5B17263627%5D=17263627&itemids%5B17263443%5D=17263443&itemids%5B17263581%5D=17263581', 
+			'itemList': [
+						'17263627', 
+						'17263443', 
+						'17263581'
+						]}
+						
+{
+'host_A_B': 'FRKT-CR4 _ M7-CR9-A', 
+'host_B_A': 'M7-CR9-A _ FRKT-CR4', 
+'host_A': 'FRKT-CR4', 
+'host_B': 'M7-CR9-A', 
+'IP_A': '87.226.134.111', 
+'IP_B': '81.177.113.143', 
+'highSpedFull': 800, 
+'highSpedUp': 600, 
+'highSpedDown': 200, 
+'linkGrah': 'http://zabbix-mpls.noc.rt.ru/history.php?action=batchgraph&itemids%5B17263627%5D=17263627&itemids%5B13542797%5D=13542797&itemids%5B13542802%5D=13542802&itemids%5B13542804%5D=13542804&itemids%5B17263608%5D=17263608&itemids%5B17263086%5D=17263086&itemids%5B17263443%5D=17263443&itemids%5B13541429%5D=13541429&itemids%5B13541434%5D=13541434&itemids%5B13541436%5D=13541436&itemids%5B17263424%5D=17263424&itemids%5B17263062%5D=17263062&itemids%5B17263581%5D=17263581&itemids%5B13542455%5D=13542455&itemids%5B13542460%5D=13542460&itemids%5B13542462%5D=13542462&itemids%5B17263562%5D=17263562&itemids%5B17263080%5D=17263080&itemids%5B17263627%5D=17263627&itemids%5B17263443%5D=17263443&itemids%5B17263581%5D=17263581&itemids%5B17263086%5D=17263086&itemids%5B17263062%5D=17263062&itemids%5B17263080%5D=17263080', 
+'listIntc': [	{
+				'intc_A': 'et-8/0/2', 
+				'intc_B': '100GE9/0/7', 
+				'highSped': 100, 
+				'linkGrah': 'http://zabbix-mpls.noc.rt.ru/history.php?action=batchgraph&itemids%5B17263627%5D=17263627&itemids%5B17263443%5D=17263443&itemids%5B17263581%5D=17263581', 
+				'listItemID': ['17263627', '17263443', '17263581']
+				}, 
+				{
+				'intc_A': 'et-2/1/5', 
+				'intc_B': '100GE2/0/16', 
+				'highSped': 100, 
+				'linkGrah': 'http://zabbix-mpls.noc.rt.ru/history.php?action=batchgraph&itemids%5B17263086%5D=17263086&itemids%5B17263062%5D=17263062&itemids%5B17263080%5D=17263080', 
+				'listItemID': ['17263086', '17263062', '17263080']
+				}
+			]
+}
+
+[{
+'host_A_B': 'M7-CR9-B _ FRKT-CR4', 
+'host_B_A': 'FRKT-CR4 _ M7-CR9-B', 
+'host_A': 'M7-CR9-B', 
+'host_B': 'FRKT-CR4', 
+'IP_A': '81.177.113.144', 
+'IP_B': '87.226.134.111', 
+'highSpedFull': 800, 
+'highSpedUp': 700, 
+'highSpedDown': 100, 
+'linkGrah': 'http://zabbix-mpls.noc.rt.ru/history.php?action=batchgraph&itemids%5B15451420%5D=15451420&itemids%5B15451440%5D=15451440&itemids%5B15451840%5D=15451840&itemids%5B15451843%5D=15451843&itemids%5B15451400%5D=15451400&itemids%5B15451460%5D=15451460&itemids%5B15451496%5D=15451496&itemids%5B15447388%5D=15447388&itemids%5B15447408%5D=15447408&itemids%5B15447808%5D=15447808&itemids%5B15447811%5D=15447811&itemids%5B15447368%5D=15447368&itemids%5B15447428%5D=15447428&itemids%5B15450412%5D=15450412&itemids%5B15450432%5D=15450432&itemids%5B15450832%5D=15450832&itemids%5B15450835%5D=15450835&itemids%5B15450392%5D=15450392&itemids%5B15450452%5D=15450452&itemids%5B15450488%5D=15450488&itemids%5B15451840%5D=15451840&itemids%5B15447808%5D=15447808&itemids%5B15450832%5D=15450832', 
+'listIntcItem': [{
+				'intc_A': '100GE2/0/15', 
+				'intc_B': 'et-0/0/2', 
+				'admnStts': 'Up', 
+				'operStts': <class 'str'>, 
+				'highSped': 0, 
+				'listItemIDStts': [], 
+				'listItemIDSped': [], 
+				'linkGrahStts': <class 'str'>, 
+				'linkGrahSped': <class 'str'>}, {'intc_A': '100GE3/0/15', 'intc_B': 'et-3/1/2', 'admnStts': 'Up', 'operStts': <class 'str'>, 'highSped': 0, 'listItemIDStts': [], 'listItemIDSped': [], 'linkGrahStts': <class 'str'>, 'linkGrahSped': <class 'str'>}, {'intc_A': '100GE10/0/8', 'intc_B': 'et-2/0/2', 'admnStts': 'Up', 'operStts': <class 'str'>, 'highSped': 0, 'listItemIDStts': [], 'listItemIDSped': [], 'linkGrahStts': <class 'str'>, 'linkGrahSped': <class 'str'>}, {'intc_A': '100GE10/0/11', 'intc_B': 'et-9/0/5', 'admnStts': 'Up', 'operStts': <class 'str'>, 'highSped': 0, 'listItemIDStts': [], 'listItemIDSped': [], 'linkGrahStts': <class 'str'>, 'linkGrahSped': <class 'str'>}, {'intc_A': '100GE1/0/15', 'intc_B': 'et-1/0/2', 'admnStts': 'Up', 'operStts': <class 'str'>, 'highSped': 0, 'listItemIDStts': [], 'listItemIDSped': [], 'linkGrahStts': <class 'str'>, 'linkGrahSped': <class 'str'>}, {'intc_A': '100GE4/0/15', 'intc_B': 'et-0/1/2', 'admnStts': 'Up', 'operStts': <class 'str'>, 'highSped': 0, 'listItemIDStts': [], 'listItemIDSped': [], 'linkGrahStts': <class 'str'>, 'linkGrahSped': <class 'str'>}, {'intc_A': '100GE8/0/11', 'intc_B': 'et-10/0/5', 'admnStts': 'Up', 'operStts': <class 'str'>, 'highSped': 0, 'listItemIDStts': [], 'listItemIDSped': [], 'linkGrahStts': <class 'str'>, 'linkGrahSped': <class 'str'>}], 'listIntcTrgr': [{'intc_A': '100GE10/0/8', 'intc_B': 'et-2/0/2', 'highSped': 100, 'linkGrah': 'http://zabbix-mpls.noc.rt.ru/history.php?action=batchgraph&itemids%5B15451840%5D=15451840&itemids%5B15447808%5D=15447808&itemids%5B15450832%5D=15450832', 'listItemID': ['15451840', '15447808', '15450832']}]}]
+				
+				
+                'itemIDAdmnStts': str,
+                'itemIDOperStts': str,
+                'itemIDHighSped': str,
+                'itemIDBitsRecd': str,
+                'itemIDBitsSent': str,				

@@ -1,0 +1,52 @@
+2022-04-26 22:29:53				PROBLEM		KLNG-RGR4	Interface xe-1/3/2(<< 10GE ae41 to M7-CR9-A Gi7/0/0:2 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 11s	No	1 action
+2022-04-26 22:29:53				PROBLEM		KLNG-RGR4	Interface ae41(<< 2x10GE to M7-CR9-A Eth-Trunk45 >>): Link change state UP to DOWN	
+down (2), << 2x10GE to M7-CR9-..., up (1)	7h 18m 11s	No	1 action
+2022-04-26 22:29:48				PROBLEM		M7-CR9-A	Interface Gi7/0/0:2(<< 10GE ae41 to KLNG-RGR4 xe-1/3/2 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 16s	No	1 action
+2022-04-26 22:29:48				PROBLEM		KLNG-RGR4	Interface xe-1/3/3(<< 10GE ae41 to M7-CR9-A Gi7/0/0:0 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 16s	No	1 action
+2022-04-26 22:29:48				PROBLEM		M7-CR9-A	Interface Gi7/0/0:0(<< 10GE ae41 to KLNG-RGR4 xe-1/3/3 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 16s	No	1 action
+2022-04-26 22:29:48				PROBLEM		M7-CR9-B	Interface Gi8/0/0:3(<< 10GE ae41 to UAK6-CR4-B xe-1/3/4 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 16s	No	1 action
+2022-04-26 22:29:48				PROBLEM		UAK6-CR4-B	Interface xe-1/3/4(<< 10GE ae41 to M7-CR9-B Gi8/0/0:3 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 16s	No	1 action
+2022-04-26 22:29:53				PROBLEM		KLNG-RGR4	Interface xe-1/3/2(<< 10GE ae41 to M7-CR9-B xe-4/3/2 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 11s	No	1 action
+2022-04-26 22:29:53				PROBLEM		M7-CR9-A	Interface xe-4/3/2(<< 10GE ae41 to M7-CR9-B xe-1/3/2 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 11s	No	1 action
+2022-04-26 22:29:53				PROBLEM		M7-CR9-A	Interface xe-4/5/2(<< 10GE ae41 to M7-CR9-B xe-2/3/2 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 11s	No	1 action
+
+2022-04-26 22:29:53				PROBLEM		KLNG-RGR4	Interface xe-1/3/2(<< 10GE ae41 to M7-CR9-A Gi7/0/0:2 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 11s	No	1 action
+2022-04-26 22:29:53				PROBLEM		KLNG-RGR4	Interface ae41(<< 2x10GE to M7-CR9-A Eth-Trunk45 >>): Link change state UP to DOWN	
+down (2), << 2x10GE to M7-CR9-..., up (1)	7h 18m 11s	No	1 action
+2022-04-26 22:29:53				PROBLEM		M7-CR9-A	Interface Gi7/0/0:2(<< 2x10GE to KLNG-RGR4 xe-1/3/2 >>): Link change state UP to DOWN	
+down (2), << 2x10GE to M7-CR9-..., up (1)	7h 18m 11s	No	1 action
+2022-04-26 22:29:53				PROBLEM		M7-CR9-A	Interface Gi7/0/0:3(<< 2x10GE to KLNG-RGR4 xe-1/3/4 >>): Link change state UP to DOWN	
+down (2), << 2x10GE to M7-CR9-..., up (1)	7h 18m 11s	No	1 action
+2022-04-26 22:29:48				PROBLEM		M7-CR9-B	Interface Gi8/0/0:3(<< 10GE ae41 to UAK6-CR4-B xe-1/3/4 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 16s	No	1 action
+2022-04-26 22:29:48				PROBLEM		KLNG-RGR4	Interface xe-1/3/3(<< 10GE ae41 to M7-CR9-A Gi7/0/0:0 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 16s	No	1 action
+2022-04-26 22:29:48				PROBLEM		M7-CR9-A	Interface Gi7/0/0:0(<< 10GE ae41 to KLNG-RGR4 xe-1/3/3 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 16s	No	1 action
+2022-04-26 22:29:53				PROBLEM		M7-CR9-A	Interface xe-4/5/2(<< 10GE ae41 to M7-CR9-B xe-2/3/2 via Megafon >>): Link change state UP to DOWN	
+down (2), << 10GE ae41 to M7-C..., up (1)	7h 18m 11s	No	1 action
+
+
+
+
+
+
+
+
+'Host A-B': 'KLNG-RGR4 - M7-CR9-A', 'Host B-A': 'M7-CR9-A - KLNG-RGR4', 'Rate': 30
+{'Host A-B': 'M7-CR9-B - UAK6-CR4-B', 'Host B-A': 'UAK6-CR4-B - M7-CR9-B', 'Rate': 10
+
+KLNG-RGR4 - M7-CR9-A 10 + 10 
+UAK6-CR4-B - M7-CR9-B 10
+KLNG-RGR4 - M7-CR9-B 10
+M7-CR9-A - M7-CR9-B 10
