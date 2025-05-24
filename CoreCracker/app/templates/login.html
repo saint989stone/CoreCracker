@@ -1,0 +1,51 @@
+<!-- Шаблон авторизацци -->
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Sign In</h1>
+    <!--Форма авторизации.
+    Атрибут action указывает адресной строки с которого отправляется информация
+    Атрибут method указвает на способ отправки
+    Атрибут novalidate сообщает браузеру не осуществлять проверку полей, оставляя это приложению Flask-->
+    <form action="" method="post" novalidate>
+        <!--Аргумент hidden_tag() создает скрытое поле, содержащее токен, используемый для защиты формы от атаки CSRF -->
+        {{ form.hidden_tag() }}
+        <p>
+            <!--Блок ввода имени пользователя.
+            Объект Flask Form визуализируют себя как HTML.
+            form.<field_name>.label определяет место метки поля.
+            form.<field_name>() определяет место самого поля. может принимать аргументы для добавления
+            HTML-элемент <input>. Таким образом можно присоединять классы CSS или идентификаторы-->
+            {{ form.username.label }}<br>
+            {{ form.username(size=32) }}
+            {% for error in form.username.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            <!--Блок ввода пароля.-->
+            {{ form.password.label }}<br>
+            {{ form.password(size=32) }}
+            {% for error in form.password.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            <!--Чек-Бокс-->
+            {{ form.remember_me() }}
+            {{ form.remember_me.label }}
+        </p>
+        <p>
+            <!--Кнопка-->
+            {{ form.submit() }}
+        </p>
+        <p>
+            New User?
+            <a href="{{ url_for('register') }}">Click to Register!</a>
+        </p>
+        <p>
+            Reset Password
+            <a href="{{ url_for('reset_password_request') }}">Click to Reset</a>
+        </p>
+    </form>
+{% endblock %}
