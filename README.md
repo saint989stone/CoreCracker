@@ -25,3 +25,5 @@
 > corecracker.py - скрипт запускающий объект приложения Flask
 >
 >Hello
+>
+>Hello2
