@@ -23,3 +23,5 @@
 > app.db - объект базы данных SQLite
 > 
 > corecracker.py - скрипт запускающий объект приложения Flask
+>
+> hello 
